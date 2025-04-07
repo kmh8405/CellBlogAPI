@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDB 단백질 검색</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script defer src="script.js"></script>
+    <style>
+        .pdb-container {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="pdb-container">
+        <h2>PDB 단백질 검색</h2>
+        <input type="text" id="pdb-id" placeholder="PDB ID 입력 (예: 6LU7)">
+        <button id="fetch-button">검색</button>
+
+        <h3>📌 단백질 정보</h3>
+        <div id="protein-info"></div>
+
+        <h3>📌 단백질 3D 구조</h3>
+        <div id="viewer"></div>
+    </div>
+</body>
+</html>

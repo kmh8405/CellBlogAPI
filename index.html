@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>분자세포학 전공자의 공부 블로그</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+            <img src="image/분자세포학.jpg" alt="블로그 헤더 배경" class="header-image">
+            <h1 class="header-text">분자세포학 전공자의 공부 블로그</h1>
+            </a>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <main class="container">
+            <aside class="sidebar">
+                <ul class="menu">
+                    <li class="menu-item" data-target="course-list">수업목록
+                        <ul class="submenu" id="course-list">
+                            <li data-content="course1"><a href="#" class="submenu-item">세포학</a></li>
+                            <li data-content="course2"><a href="#" class="submenu-item">복습 퀴즈</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" data-target="notes">필기노트
+                        <ul class="submenu" id="notes">
+                            <li data-content="note1"><a href="#" class="submenu-item">Virology</a></li>
+                            <li data-content="note2"><a href="#" class="submenu-item">Neurobiology</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" data-target="experiments">실험내용
+                        <ul class="submenu" id="experiments">
+                            <li data-content="experiment1"><a href="#" class="submenu-item">PCR 실험</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" data-target="3D-Structure">정보검색
+                        <ul class="submenu" id="3D-Structure">
+                            <li data-content="structure1"><a href="#" class="submenu-item">단백질 검색</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <section class="content" id="content-area">
+                <div class="top-widgets">
+                    <div class="calendar">
+                        <div class="date-month">
+                            <span id="month-this">2025.04</span>
+                            <div class="button_wrap">
+                                <button type="button" id="month-prev" class="month-move" data-ym="2022-04-01"> &lt; </button>
+                                <button type="button" id="month-next" class="month-move" data-ym="2022-06-01"> &gt; </button>
+                            </div>
+                        </div>
+                        <table class="date-month">
+                            <thead>
+                                <tr>
+                                    <th class="sun">일</th>
+                                    <th>월</th>
+                                    <th>화</th>
+                                    <th>수</th>
+                                    <th>목</th>
+                                    <th>금</th>
+                                    <th class="sat">토</th>
+                                </tr>
+                            </thead>
+                            <tbody id="calendar-body"></tbody>
+                        </table>
+                    </div>
+            
+                    <div class="memo-section">
+                        <h3>오늘의 할 일:</h3>
+                        <button id="add-memo-btn" style="margin-left: 10px;">추가</button>
+                            <ul id="memo-list"></ul>
+                    </div>
+                </div>
+
+                <div style="clear: both;"></div>
+
+                <div class="latest-papers">
+                    <h3>📄 최신 논문 (키워드 : Molecular Biology)</h3>
+                    <div id="paper-container"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 분자세포학 전공자의 공부 블로그. All rights reserved.</p>
+        <p>문의: <a href="mailto:kmh.ssem8405@gmail.com">kmh.ssem8405@gmail.com</a></p>
+    </footer>
+</body>
+</html>

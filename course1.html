@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세포 구조 비교</title>
+    <script defer src="script.js"></script>
+    <style>
+        .cell-comparison-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+            max-width: 100vw;
+        }
+
+        .cell-images {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .cell-images img {
+            height: 400px;
+            width: auto;
+            max-width: 100%;
+        }
+
+        .cell-table {
+            flex: 1;
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+        .cell-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .cell-table th,
+        .cell-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h2>세포 구조 비교</h2>
+    <div class="cell-comparison-container">
+      <div class="cell-images">
+        <img src="image/prokaryotic cell.png" alt="prokaryotic cell">
+        <img src="image/eukaryotic cell.png" alt="eukaryotic cell">
+      </div>
+      <div class="cell-table">
+        <h3>Eukaryotic cell vs Prokaryotic cell</h3>
+        <table>
+          <thead>
+            <tr style="background-color: #f2f2f2;">
+              <th>Characteristics</th>
+              <th>Eukaryotic cell</th>
+              <th>Prokaryotic cell</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Examples</td>
+              <td>Animal, plant, fungi</td>
+              <td>Bacteria, archaea</td>
+            </tr>
+            <tr>
+              <td>Nucleus</td>
+              <td>Present</td>
+              <td>Absent</td>
+            </tr>
+            <tr>
+              <td>Cell Size</td>
+              <td>Large(10-100 um)</td>
+              <td>Small(~5 um)</td>
+            </tr>
+            <tr>
+              <td>DNA Replication</td>
+              <td>Highly regulated with selective origins and sequences</td>
+              <td>Replicates entire genome at once</td>
+            </tr>
+            <tr>
+              <td>Organism Type</td>
+              <td>Multicellular</td>
+              <td>Unicellular</td>
+            </tr>
+            <tr>
+              <td>Chromosomes</td>
+              <td>More than 1</td>
+              <td>One long single loop of DNA and plasmids</td>
+            </tr>
+            <tr>
+              <td>Growth Rate</td>
+              <td>Slower</td>
+              <td>Faster</td>
+            </tr>
+            <tr>
+              <td>Plasma Membrane</td>
+              <td>Present</td>
+              <td>Present</td>
+            </tr>
+            <tr>
+              <td>Cytoplasm</td>
+              <td>Present</td>
+              <td>Present</td>
+            </tr>
+            <tr>
+              <td>Organelles</td>
+              <td>Present</td>
+              <td>Absent</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
