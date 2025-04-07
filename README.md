@@ -7,8 +7,8 @@
 
 ## 🔗 관련 링크
 
-> Website: 
-Presentation:
+> Website: [CellBlogAPI](https://kmh8405.github.io/CellBlogAPI/)
+Presentation: [Notion](https://www.notion.so/Project-3-Web-API-jQuery-1ce4ffa3e1d780da8108e8f6b1567c60?pvs=21)
 > 
 
 ## 🗓️ 제작 기간
