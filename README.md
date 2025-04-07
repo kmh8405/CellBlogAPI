@@ -23,19 +23,19 @@ Presentation: [Notion](https://www.notion.so/Project-3-Web-API-jQuery-1ce4ffa3e1
 
 ## 🛠️ 기능 소개 (JS 기능)
 
-> 달력 자동 갱신(매일 자정)
+> 달력 자동 갱신(매일 자정),
 메모장 하루 단위 쿠키 저장(자정 이후 자동 삭제)
 > 
 
 ## 🛠️ 기능 소개 (API)
 
-> 최신 논문 가져오기
+> 최신 논문 가져오기,
 단백질 정보 및 3D 구조 불러오기
 > 
 
 ## 📩 사용한 API
 
-> PDB (Protein Data Bank) API
+> PDB (Protein Data Bank) API,
 NCBI API - E-Utilities (Entrez Programming Utilities)
 > 
 
