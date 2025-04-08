@@ -7,7 +7,7 @@
 
 ## 🖥️ 제작 동기 및 소개
 
-[이전 프로젝트](https://www.notion.so/Project-2-HTML-CSS-1ac4ffa3e1d780f28b2cc4d4c3ff6f99?pvs=21)에서 제작했던 **’분자세포학 전공자의 공부 블로그’**를 기반으로, API 기능들을 확장하여 전공과 밀접한 두 가지 요소를 추가했습니다:
+[이전 프로젝트](https://www.notion.so/Project-2-HTML-CSS-1ac4ffa3e1d780f28b2cc4d4c3ff6f99?pvs=21)에서 제작했던 **분자세포학 전공자의 공부 블로그**를 기반으로, API 기능들을 확장하여 전공과 밀접한 두 가지 요소를 추가했습니다:
 
 1. **PubMed API**를 통해 최신 전공 논문 자동 수집
 2. **RCSB PDB API**를 통해 단백질 정보 및 3D 구조 검색 기능 구현
