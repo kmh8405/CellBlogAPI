@@ -66,7 +66,6 @@
 - **HTML**
 - **CSS**
 - **JavaScript**
-    - Vanilla JS
     - jQuery (AJAX 활용)
 
 ---
@@ -158,7 +157,6 @@ The result is an expanded blog that automatically brings in **scientific literat
 - **HTML**
 - **CSS**
 - **JavaScript**
-    - Vanilla JS
     - jQuery (AJAX-based)
 
 ---
